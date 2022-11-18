@@ -27,14 +27,14 @@ function reset(){
 function lead1(){
    if(result1 >= result2){
       document.getElementById("hscore").style.color = "green" ;
-   }else if(result1 < result2){
+   }else{
       document.getElementById("hscore").style.color = "red" ;
    }
    }
    function lead2(){
        if(result2 >= result1){
       document.getElementById("gscore").style.color = "green" ;
-   }else if(result2 < result1){
+   }else{
       document.getElementById("gscore").style.color = "red" ;
    }
 }
